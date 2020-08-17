@@ -1,3 +1,11 @@
+body {
+    background: grey;
+}
+
+.jumbotron {
+    margin-top: 60px;
+}
+
 #footer-banner {
     height: 5px;
 }
@@ -14,9 +22,6 @@
 
 
 @media screen and (max-width: 768px) {
-    body {
-        background-color: green;;
-    }
 
     .short-text {
         display: inline-block;
@@ -25,12 +30,10 @@
     .full-text {
         display: none;
     }
+
 }
 
 @media screen and (max-width: 400px) {
-    body {
-        background-color: yellow;
-    }
-    
+
 
 }
