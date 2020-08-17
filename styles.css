@@ -6,7 +6,9 @@
     height: 50px;
 }
 
-
+.short-text {
+    display: none;
+}
 
 
 
@@ -15,11 +17,20 @@
     body {
         background-color: green;;
     }
+
+    .short-text {
+        display: inline-block;
+    }
+
+    .full-text {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) {
     body {
         background-color: yellow;
     }
+    
 
 }
