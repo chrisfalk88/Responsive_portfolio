@@ -1,4 +1,25 @@
-#name {
-    background-color: darkgrey;
-    color: white;
+#footer-banner {
+    height: 5px;
+}
+
+#footer-main {
+    height: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: green;;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: yellow;
+    }
+
 }
