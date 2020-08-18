@@ -18,7 +18,11 @@ body {
     display: none;
 }
 
+div>img {
+    max-height: 200px;
+    padding-right: 15px;
 
+}
 
 
 @media screen and (max-width: 768px) {
@@ -34,6 +38,18 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+    .jumbotron {
+        display: flex;
+        flex-direction: column;
 
+    }
+
+    div>img {
+        max-height: 300px;
+        padding: 15px;
+    }
+    hr {
+        display: none;
+    }
 
 }
