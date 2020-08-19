@@ -4,6 +4,7 @@ body {
 
 .jumbotron {
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 #footer-banner {
@@ -18,11 +19,22 @@ body {
     display: none;
 }
 
-div>img {
+.rounded {
+    margin-bottom: 15px;
+}
+
+.portImage {
+    margin: 15px;
+
+}
+
+#aboutImage {
     max-height: 200px;
     padding-right: 15px;
 
 }
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -35,13 +47,25 @@ div>img {
         display: none;
     }
 
+    .photoPortfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
 }
 
 @media screen and (max-width: 400px) {
     .jumbotron {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
 
+    .container {
+        width: 100%;
     }
 
     div>img {
@@ -50,6 +74,10 @@ div>img {
     }
     hr {
         display: none;
+    }
+
+    h3 {
+        align-self: center;
     }
 
 }
