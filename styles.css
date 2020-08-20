@@ -51,6 +51,8 @@ body {
     .photoPortfolio {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        align-content: space-between;
     }
 
 
@@ -71,6 +73,14 @@ body {
         max-width: 80%;
         padding: 0;
         align-self: center;
+    }
+
+    .portImage {
+        max-height: 80%;
+        max-width: 80%;
+        padding: 0;
+        align-self: center;
+
     }
         
     hr {
