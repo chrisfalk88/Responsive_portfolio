@@ -31,6 +31,7 @@ body {
 #aboutImage {
     max-height: 200px;
     padding-right: 15px;
+    
 
 }
 
@@ -62,21 +63,21 @@ body {
         display: flex;
         flex-direction: column;
         width: 100%;
+
     }
 
-    .container {
-        width: 100%;
+    #aboutImage {
+        max-height: 80%;
+        max-width: 80%;
+        padding: 0;
+        align-self: center;
     }
-
-    div>img {
-        max-height: 300px;
-        padding: 15px;
-    }
+        
     hr {
         display: none;
     }
 
-    h3 {
+     h1, h3 {
         align-self: center;
     }
 
